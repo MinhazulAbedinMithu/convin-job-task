@@ -47,7 +47,7 @@ const Inside = () => {
 						</span>
 					</li>
 					<li className="border-b-2 pb-2 flex items-center justify-start gap-5">
-						<span className="text-3xl font-bold">04.</span>{" "}
+						<span className="text-3xl font-bold">05.</span>{" "}
 						<span className="text-xl">
 							A comprehensive <b>meeting checklist</b> before meeting the
 							C-suite executive

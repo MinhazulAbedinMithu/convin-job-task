@@ -27,7 +27,7 @@ const DidKnow = () => {
 					know their struggle and circumstances, it’s hard to decode what they
 					expect.
 				</p>
-				<div className="w-full pt-8 flex items-start justify-between gap-6">
+				<div className="w-full pt-8 flex gap-6 pb-5">
 					{knowItems.map((item, index) => (
 						<div
 							key={index}

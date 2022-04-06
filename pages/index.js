@@ -2,6 +2,7 @@ import Head from "next/head";
 import React from "react";
 import Author from "../components/Author";
 import Banner from "../components/Banner";
+import ChatBox from "../components/ChatBox";
 import CtaReady from "../components/CtaReady";
 import DidKnow from "../components/DidKnow";
 import Ebook from "../components/Ebook";
@@ -22,6 +23,7 @@ export default function Home() {
 			<CtaReady />
 			<DidKnow />
 			<Author />
+			<ChatBox />
 		</div>
 	);
 }

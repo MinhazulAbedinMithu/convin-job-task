@@ -87,7 +87,7 @@ const Dropdown = ({ subRoutes, dropdown, depthLevel }) => {
 
 	return (
 		<ul
-			className={`absolute right-0 left-auto z-999 list-none bg-white w-64 pl-5 py-2 rounded-md text-black ${
+			className={`absolute right-0 left-auto z-999 list-none bg-white w-64 pl-5 py-2 rounded-md text-gray-800 shadow-lg shadow-slate-300 ${
 				depthLevel > 1 ? "absolute left-full -top-1" : ""
 			} ${dropdown ? "block" : "hidden"}`}
 		>
@@ -174,7 +174,7 @@ const MenuItems = ({ route, depthLevel }) => {
 
 const Header = () => {
 	return (
-		<header className="w-full bg-blue-600 text-white sticky top-0 z-[1000] shadow-xl shadow-cyan-300/50">
+		<header className="w-full bg-blue-600 text-white sticky top-0 z-[1000] shadow-lg shadow-blue-600/50">
 			<div className="container flex items-center w-full mx-auto py-4 justify-between">
 				<div className="logo">
 					<Link href="/">
